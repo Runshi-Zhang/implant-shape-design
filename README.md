@@ -5,7 +5,7 @@ Code and data for paper: Automatic implant shape design for minimally invasive r
 
 Our code is based on the <a href="https://download.openmmlab.com/mmdetection" rel="nofollow">mmdetection</a> of openmmlab.
 
-#Requirements
+## Requirements
 Some important required packages include:
 
 Linux
@@ -18,14 +18,14 @@ mmdetection 2.28.1
 
 Some basic python packages such as Numpy,pydicom,scipy,pycpd...
 
-#Object Detection Module
+## Object Detection Module
 
 The pre-training model is <a href="https://download.openmmlab.com/mmdetection/v2.0/sparse_rcnn/sparse_rcnn_r101_fpn_mstrain_480-800_3x_coco/sparse_rcnn_r101_fpn_mstrain_480-800_3x_coco_20201223_121552-6c46c9d6.pth" rel="nofollow">Sparse R-CNN</a>.
 
 The network of the Object Detection Module is <a href="https://pan.baidu.com/s/1cPepyFn7vTfCzsEcxaLWrA">Sparse R-CNN-R101 with 200 proposal boxes</a>.
 
-#Instance Segmentation Module
+## Instance Segmentation Module
 
 The pre-training model is <a href="https://download.openmmlab.com/mmdetection/v2.0/cascade_rcnn/cascade_mask_rcnn_x101_64x4d_fpn_mstrain_3x_coco/cascade_mask_rcnn_x101_64x4d_fpn_mstrain_3x_coco_20210719_210311-d3e64ba0.pth">Cascade Mask R-CNN</a>.
 
-#Requirements
+## Requirements
