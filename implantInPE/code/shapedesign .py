@@ -28,7 +28,7 @@ def visualize(iteration, error, X, Y, ax):
 
 
 if __name__ == "__main__":
-     #load the segmentation module (cocoCascader100.py and cascademaskrcnn.pth).
+     #load the segmentation module (cocoCascade.py and cascademaskrcnn.pth).
     config_file = './cocoCascader100.py'
     checkpoint_file = './cascademaskrcnn.pth'
     model = init_detector(config_file, checkpoint_file)  # or device='cuda:0'
